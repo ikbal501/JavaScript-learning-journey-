@@ -64,9 +64,9 @@
 // console.log(str);
 // console.log(typeof str);
 
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
-console.log();
+console.log(Number(null));
+console.log(Number(undefined));
+console.log(Number(BigInt));
+console.log(Number(Symbol));
+console.log(Number(NaN));
+console.log(Number(Boolean));
