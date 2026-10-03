@@ -13,6 +13,4 @@ if (Number.isNaN(birthYear) || birthYear <= 0 || birthYear > currentYear) {
 }
 
 
-
-
 rl.close();
